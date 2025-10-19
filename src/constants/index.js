@@ -128,7 +128,7 @@ export const experiences = [
   {
   title: "MERN Stack Web Developer at Edunet Foundation collab with EY Global Service",
   job: "MERN Stack Intern",
-  date: "15 March 2025 - 31 April 2025",
+  date: "15 March 2025 - 30 April 2025",
   contents: [
     "Worked on a full-stack project called Recipe Sharing Website, enabling users to browse, share, and filter recipes efficiently.",
     "Developed frontend components using React.js and TailwindCSS for a responsive and user-friendly interface.",
