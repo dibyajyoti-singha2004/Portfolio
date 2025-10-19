@@ -2,6 +2,7 @@ import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import Alert from "../components/Alert";
 import { Particles } from "../components/Particles";
+
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -12,9 +13,11 @@ const Contact = () => {
   const [showAlert, setShowAlert] = useState(false);
   const [alertType, setAlertType] = useState("success");
   const [alertMessage, setAlertMessage] = useState("");
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
+
   const showAlertMessage = (type, message) => {
     setAlertType(type);
     setAlertMessage(message);
@@ -23,6 +26,7 @@ const Contact = () => {
       setShowAlert(false);
     }, 5000);
   };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
@@ -30,16 +34,16 @@ const Contact = () => {
     try {
       console.log("From submitted:", formData);
       await emailjs.send(
-        "service_79b0nyj",
-        "template_17us8im",
+        "service_mrf0h5i",
+        "template_mgj0lje",
         {
           from_name: formData.name,
-          to_name: "Ali",
+          to_name: "Dibyajyoti Singha",
           from_email: formData.email,
-          to_email: "AliSanatiDev@gmail.com",
+          to_email: "dibyajyotisingha2004@gmail.com",
           message: formData.message,
         },
-        "pn-Bw_mS1_QQdofuV"
+        "_gu4BaDdA90fKjvHL"
       );
       setIsLoading(false);
       setFormData({ name: "", email: "", message: "" });
@@ -50,8 +54,12 @@ const Contact = () => {
       showAlertMessage("danger", "Somthing went wrong!");
     }
   };
+
   return (
-    <section className="relative flex items-center c-space section-spacing">
+    <section
+      id="contact" // added id here
+      className="relative flex items-center c-space section-spacing"
+    >
       <Particles
         className="absolute inset-0 -z-50"
         quantity={100}
@@ -78,7 +86,7 @@ const Contact = () => {
               name="name"
               type="text"
               className="field-input field-input-focus"
-              placeholder="John Doe"
+              placeholder="Dibyajyoti Singha"
               autoComplete="name"
               value={formData.name}
               onChange={handleChange}
@@ -94,7 +102,7 @@ const Contact = () => {
               name="email"
               type="email"
               className="field-input field-input-focus"
-              placeholder="JohnDoe@email.com"
+              placeholder="dibyajyotisingha2004@email.com"
               autoComplete="email"
               value={formData.email}
               onChange={handleChange}

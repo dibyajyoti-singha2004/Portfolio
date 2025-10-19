@@ -1,36 +1,23 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Food-Delivery Website (Using React Only)",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "Our Food Delivery Website is a modern, responsive web application built with React.js that allows users to browse and order their favorite meals from the restaurant.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "The Food Delivery Website provides a simple and user-friendly experience where users can browse multiple food items from a single restaurant, add their selections to the cart, and place an order with a flat delivery fee of ₹20. The platform features a responsive design built with React.js, ensuring smooth interaction and easy navigation across devices, while the cart system allows users to review and modify their orders before checkout.",
     ],
-    href: "",
+    href: "https://dibya-food-delivery.netlify.app/",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/food-delivery.png",
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
       },
@@ -38,187 +25,128 @@ export const myProjects = [
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "MediLink - A full stack doctor booking website",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "MediLink is a full-stack doctor booking website that allows users to easily search for doctors, view their profiles, and book appointments online. Built with modern web technologies, it provides a seamless and responsive experience for patients while enabling efficient management of bookings for doctors.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Built using React.js for a dynamic and responsive frontend experience and Nodejs , Expressjs and mongodb for backend and database.Implemented doctor search and filtering by specialty, location, and availability.Added appointment booking system with real-time scheduling and confirmation.",
     ],
-    href: "",
+    href: "https://doctor-appointment-frontend-zc98.onrender.com/",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/medilink.png",
     tags: [
       {
         id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
         name: "React",
         path: "/assets/logos/react.svg",
       },
       {
+        id: 2,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "NodeJS",
+        path: "/assets/logos/nodejs.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "ExpressJS",
+        path: "/assets/logos/expressjs.jpg",
+      },
+      {
+        id: 5,
+        name: "MongoDB",
+        path: "/assets/logos/mongodb.jpg",
       },
     ],
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "ZapChat - a real time chat application",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "A modern and responsive chat app used to chat in real time.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
-    ],
-    href: "",
+      "Built using the MERN stack (MongoDB, Express, React, Node.js) for a full-stack solution.",
+  "Implemented real-time messaging with Socket.IO for instant chat functionality.",
+  "Designed chat rooms and private messaging for seamless user interactions."
+],
+    href: "https://zap-chat-client.vercel.app/",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/ZapChat.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
       },
-    ],
-  },
-  {
-    id: 4,
-    title: "C++ Game Engine",
-    description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
-    subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/game-engine.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
       {
         id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
+        name: "NodeJS",
+        path: "/assets/logos/nodejs.svg",
       },
       {
         id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
+        name: "ExpressJS",
+        path: "/assets/logos/expressjs.jpg",
+      },
+      {
+        id: 5,
+        name: "MongoDB",
+        path: "/assets/logos/mongodb.jpg",
+      },
+      {
+        id: 6,
+        name: "SocketIO",
+        path: "/assets/logos/OIP.jpg",
       },
     ],
   },
+];
+
+export const experiences = [
   {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
+  title: "Frontend Web Developer Intern at TechSonIx Solutions",
+  job: "Frontend Intern",
+  date: "1 Feb 2025 - 28 Feb 2025",
+  contents: [
+    "Developed responsive web pages using HTML, CSS, and JavaScript, ensuring cross-browser compatibility.",
+    "Implemented interactive UI components and dynamic elements using React.js and TailwindCSS.",
+    "Integrated APIs and handled asynchronous data fetching for real-time content updates.",
+    "Optimized website performance by improving loading times, reducing bundle size, and implementing best practices.",
+    "Collaborated with backend developers to ensure seamless integration of frontend and backend functionalities.",
+    "Tested and debugged UI issues, improving user experience and overall application stability."
+  ],
+},
+
   {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+  title: "MERN Stack Web Developer at Edunet Foundation collab with EY Global Service",
+  job: "MERN Stack Intern",
+  date: "15 March 2025 - 31 April 2025",
+  contents: [
+    "Worked on a full-stack project called Recipe Sharing Website, enabling users to browse, share, and filter recipes efficiently.",
+    "Developed frontend components using React.js and TailwindCSS for a responsive and user-friendly interface.",
+    "Implemented backend APIs with Node.js and Express, handling CRUD operations for recipes and user interactions.",
+    "Integrated MongoDB for storing user data, recipes, and comments securely.",
+    "Ensured seamless connection between frontend and backend, optimizing performance and real-time data updates.",
+    "Collaborated with team members to design features like recipe filters, search functionality, and user profile management."
+  ],
+},
+
+  {
+    title: "Looking for internship and till now worked on myself",
+    job: "You can contact me for internships :)",
+    date: "May 2025-Present",
+    contents: [
+      "Created personal project along with participating in hackathons and other competitions.",
+      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
+      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
     ],
   },
 ];
@@ -226,103 +154,22 @@ export const myProjects = [
 export const mySocials = [
   {
     name: "WhatsApp",
-    href: "",
+    href: "+91 9832106652",
     icon: "/assets/socials/whatsApp.svg",
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/dibyajyoti-singha-41274828a/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
+    href: "https://www.instagram.com/dibya_jyotisingha/",
     icon: "/assets/socials/instagram.svg",
   },
-];
-
-export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
-    contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
-    ],
-  },
-  {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
-    contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
-    ],
-  },
-  {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
-    contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
-    ],
-  },
-];
-export const reviews = [
-  {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://robohash.org/jack",
-  },
-  {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://robohash.org/jill",
-  },
-  {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://robohash.org/john",
-  },
-  {
-    name: "Alice",
-    username: "@alice",
-    body: "This is hands down the best thing I've experienced. Highly recommend!",
-    img: "https://robohash.org/alice",
-  },
-  {
-    name: "Bob",
-    username: "@bob",
-    body: "Incredible work! The attention to detail is phenomenal.",
-    img: "https://robohash.org/bob",
-  },
-  {
-    name: "Charlie",
-    username: "@charlie",
-    body: "This exceeded all my expectations. Absolutely stunning!",
-    img: "https://robohash.org/charlie",
-  },
-  {
-    name: "Dave",
-    username: "@dave",
-    body: "Simply breathtaking. The best decision I've made in a while.",
-    img: "https://robohash.org/dave",
-  },
-  {
-    name: "Eve",
-    username: "@eve",
-    body: "So glad I found this. It has changed the game for me.",
-    img: "https://robohash.org/eve",
+    name: "Github",
+    href: "https://github.com/dibyajyoti-singha2004",
+    icon: "/assets/socials/github2.png",
   },
 ];
