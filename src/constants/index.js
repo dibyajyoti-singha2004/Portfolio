@@ -154,7 +154,7 @@ export const experiences = [
 export const mySocials = [
   {
     name: "WhatsApp",
-    href: "tel:+9832106652",
+    href: "https://wa.me/9832106652",
     icon: "/assets/socials/whatsApp.svg",
   },
   {
