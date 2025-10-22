@@ -7,7 +7,7 @@ export const myProjects = [
     subDescription: [
       "The Food Delivery Website provides a simple and user-friendly experience where users can browse multiple food items from a single restaurant, add their selections to the cart, and place an order with a flat delivery fee of ₹20. The platform features a responsive design built with React.js, ensuring smooth interaction and easy navigation across devices, while the cart system allows users to review and modify their orders before checkout.",
     ],
-    href: "https://dibya-food-delivery.netlify.app/",
+    href: "https://food-delivery-yjms.vercel.app/",
     logo: "",
     image: "/assets/projects/food-delivery.png",
     tags: [
