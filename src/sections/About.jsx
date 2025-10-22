@@ -19,7 +19,7 @@ const About = () => {
           <div className="z-10">
             <p className="headtext">Hi, I'm Dibyajyoti Singha</p>
             <p className="subtext">
-              I am a passionate MERN Stack developer with hands-on experience in building dynamic, responsive, and user-friendly web applications. Proficient in MongoDB, Express.js, React.js, and Node.js, I enjoy turning complex problems into simple, elegant solutions. My focus lies in creating full-stack applications that are not only functional but also visually appealing, with a keen eye for UI/UX design. I am continuously learning and experimenting with modern web technologies to deliver efficient, scalable, and maintainable code.
+              I am a passionate MERN Stack developer with hands-on experience in building dynamic, responsive, and user-friendly web applications. Proficient in MongoDB, Express.js, React.js, and Node.js, I enjoy turning complex problems into simple, elegant solutions. My focus lies in creating full-stack applications that are not only functional but also visually appealing, with a keen eye for UI/UX design.
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
